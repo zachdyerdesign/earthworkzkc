@@ -6,14 +6,14 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Earthworkz Enterprises Inc. 
+title: Earthworkz Enterprises Inc.
 email: amanda@earthworkzkc.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://earthworkzkc.com/" # the base hostname & protocol for your site
 mobile: +1 913 927 0954
 phone: +1 816 355 0280
 fax: +1 816 355 0401
-address: Kansas City, MO
+address: 599 James Rollo Court<br>Grain Valley, MO 64029
 
 # Build settings
 markdown: kramdown
