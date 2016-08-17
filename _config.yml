@@ -17,3 +17,6 @@ address: 599 James Rollo Court<br>Grain Valley, MO 64029
 
 # Build settings
 markdown: kramdown
+
+gems:
+  - jekyll-sitemap
