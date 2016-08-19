@@ -42,6 +42,11 @@ header.carousel .fill {
     background-size: cover;
 }
 
+.logo {
+  position: relative;
+  top: -14px;
+}
+
 /* 404 Page Styles */
 
 .error-404 {
