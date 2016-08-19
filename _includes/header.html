@@ -13,17 +13,17 @@
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li {% if page.url == "home" %}class="active"{% endif %}>
-                    <a href="home">Home</a>
+            <ul class="nav navbar-nav navbar-right" {% if page.url == "/" %}style="display: none"{% endif %}>
+                <li {% if page.url == "/home" %}class="active"{% endif %}>
+                    <a href="home">Home {{page.url}}</a>
                 </li>
-                <li {% if page.url == "about.html" %}class="active"{% endif %}>
+                <li {% if page.url == "/about" %}class="active"{% endif %}>
                     <a href="about">About</a>
                 </li>
-                <li {% if page.url == "services" %}class="active"{% endif %}>
+                <li {% if page.url == "/services" %}class="active"{% endif %}>
                     <a href="services">Services</a>
                 </li>
-                <li {% if page.url == "contact" %}class="active"{% endif %}>
+                <li {% if page.url == "/contact" %}class="active"{% endif %}>
                     <a href="contact">Contact</a>
                 </li>
                 <!--
