@@ -75,9 +75,11 @@ layout: construction
           </p>
           <p><i class="fa fa-phone"></i>
               <abbr title="Phone">P</abbr>: {{site.phone}}</p>
+          {% for email in site.emails %}
           <p><i class="fa fa-envelope-o"></i>
-              <abbr title="Email">E</abbr>: <a href="mailto:{{site.email}}">{{site.email}}</a>
+              <abbr title="Email">E</abbr>: <a href="mailto:{{email}}">{{email}}</a>
           </p>
+          {% endfor %}
           <p><i class="fa fa-clock-o"></i>
               <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM</p>
           <!--<ul class="list-unstyled list-inline list-social-icons">

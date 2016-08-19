@@ -7,7 +7,10 @@
 
 # Site settings
 title: Earthworkz Enterprises Inc.
-email: amanda@earthworkzkc.com
+emails:
+  - amanda@earthworkzkc.com
+  - dustin@earthworkzkc.com
+  - josh@earthworkzkc.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://earthworkzkc.com/" # the base hostname & protocol for your site
 mobile: +1 913 927 0954
