@@ -1,6 +1,19 @@
 ---
 layout: default
 permalink: contact
+staff:
+  - name: Amanda
+    role: Office Manager / Human Resources
+    email: amanda@earthworkzkc.com
+  - name: Dustin
+    role: Lead Estimator / Vice President of Operations
+    email: dustin@earthworkzkc.com
+  - name: Josh
+    role: Field Operations / President
+    email: josh@earthworkzkc.com
+  - name: Jeremy
+    role: Project Manager
+    email: jeremy@earthworkzkc.com
 ---
 
 
@@ -37,9 +50,12 @@ permalink: contact
           </p>
           <p><i class="fa fa-phone"></i>
               <abbr title="Phone">P</abbr>: {{site.phone}}</p>
-          {% for email in site.emails %}
-          <p><i class="fa fa-envelope-o"></i>
-              <abbr title="Email">E</abbr>: <a href="mailto:{{email}}">{{email}}</a>
+          {% for staff in page.staff %}
+          <p>
+              <strong>{{staff.name}}</strong> <br>
+              {{staff.role}} <br>
+              <i class="fa fa-envelope-o"></i>:
+              <a href="mailto:{{email}}">{{staff.email}}</a>
           </p>
           {% endfor %}
           <p><i class="fa fa-clock-o"></i>

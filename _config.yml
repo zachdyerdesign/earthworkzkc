@@ -11,6 +11,7 @@ emails:
   - amanda@earthworkzkc.com
   - dustin@earthworkzkc.com
   - josh@earthworkzkc.com
+  - jeremy@earthworkzkc.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://earthworkzkc.com/" # the base hostname & protocol for your site
 mobile: +1 913 927 0954
