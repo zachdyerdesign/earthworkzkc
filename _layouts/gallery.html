@@ -1,0 +1,40 @@
+---
+layout: default
+---
+<!-- Header Carousel -->
+<header id="myCarousel" class="carousel slide">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+
+        {% for i in (0...page.gallery.size) %}
+        <li data-target="#myCarousel" data-slide-to="{{ i }}" {% if i == 0 %}class="active"{% endif %}></li>
+        {% endfor %}
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      {% for gallery in page.gallery %}
+      <div class="item{% if gallery == page.gallery.first %} active{% endif %}">
+          <div class="fill" style="background-image:url('img/{{ gallery }}');"></div>
+          <!-- <div class="carousel-caption"> -->
+              <!-- <h2>Directional Boring</h2> -->
+          <!-- </div> -->
+      </div>
+      {% endfor %}
+    </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="icon-prev"></span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="icon-next"></span>
+    </a>
+</header>
+
+<!-- Page Content -->
+<div class="container">
+
+  {{content}}
+
+  {% include services.html %}

@@ -1,0 +1,63 @@
+---
+layout: default
+---
+
+<!-- Page Content -->
+<div class="container">
+
+  <!-- Page Heading/Breadcrumbs -->
+  <div class="row">
+      <div class="col-lg-12">
+          <h1 class="page-header">Contact
+              <small>Us</small>
+          </h1>
+      </div>
+  </div>
+  <!-- /.row -->
+
+  <!-- Content Row -->
+  <div class="row">
+      <!-- Map Column -->
+      <div class="col-md-8">
+        <!-- Embedded Google Map -->
+        {{ page.map }}
+        {{content}}
+      </div>
+      <!-- Contact Details Column -->
+      <div class="col-md-4">
+          <h3>Contact Details</h3>
+          <p>
+              {{ page.address }}
+          </p>
+          <p><i class="fa fa-phone"></i> <abbr title="Phone">Phone</abbr>: {{page.phone}}</p>
+          <p><i class="fa fa-mobile"></i> <abbr title="Phone">Mobile</abbr>: {{page.mobile}}</p>
+          <p><i class="fa fa-fax"></i> <abbr title="Phone">Fax</abbr>: {{page.fax}}</p>
+          {% for staff in page.staff %}
+          <p>
+              <strong>{{staff.name}}</strong> <br>
+              {{staff.role}} <br>
+              <i class="fa fa-envelope-o"></i>:
+              <a href="mailto:{{email}}">{{staff.email}}</a>
+          </p>
+          {% endfor %}
+          <p><i class="fa fa-clock-o"></i>
+              <abbr title="Hours">Hours</abbr>: {{page.hours}}</p>
+          <!--<ul class="list-unstyled list-inline list-social-icons">
+              <li>
+                  <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
+              </li>
+              <li>
+                  <a href="#"><i class="fa fa-linkedin-square fa-2x"></i></a>
+              </li>
+              <li>
+                  <a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
+              </li>
+              <li>
+                  <a href="#"><i class="fa fa-google-plus-square fa-2x"></i></a>
+              </li>
+          </ul>-->
+      </div>
+  </div>
+  <!-- /.row -->
+
+  {% include contact-form.html %}
