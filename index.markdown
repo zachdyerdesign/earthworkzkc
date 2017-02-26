@@ -1,6 +1,6 @@
 ---
-layout: default
 title: Earthworkz
+layout: default
 ---
 
 {% include carousel.html %}
