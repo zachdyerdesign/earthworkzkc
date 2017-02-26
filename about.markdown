@@ -3,7 +3,7 @@ permalink: about
 layout: about
 img:
   src: img/feature.jpg
-  alt:
+  alt: 
 ---
 
 ## About Earthworkz ##

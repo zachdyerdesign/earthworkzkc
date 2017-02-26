@@ -12,38 +12,64 @@ url: http://earthworkzkc.com/
 markdown: kramdown
 gems:
 - jekyll-sitemap
-
 menus:
   main:
-    - title: Home
-      url: /
-    - title: About
-      url: /about
-    - title: Gallery
-      url: /gallery
-    - title: Services
-      url: /services
-    - title: Contact
-      url: /contact
-
+  - title: Home
+    url: "/"
+  - title: About
+    url: "/about"
+  - title: Gallery
+    url: "/gallery"
+  - title: Services
+    url: "/services"
+  - title: Contact
+    url: "/contact"
 copyright: Copyright &copy; Earthworkz 2017
-
 services:
-  - title: Directional Boring
-    icon: wrench
-    content: As a full service directional drilling contractor, we can install product anywhere from 1 inch up to 24 inches and lengths from a small road crossing to 750 feet in one bore. We also have all the specialized tooling to pull about every product on the market such as Yellowmine, Certalok, HDPE and Schedule 40 stick pipe. All of our directional drilling prices are competitive with the current market, and with our fleet of drills there is nothing we can’t accomplish.
-  - title: Vacuum Excavation
-    icon: gear
-    content: We offer these services at an hourly rate for potholing utilities. Vacuum excavation is by far the safest and least invasive technology on the market for spotting utilities. By using water or air we are able to efficiently and quickly displace soils to excavate utilities. With this technology, more often than not, the public is not regularly inconvenienced during the time these services are performed. We can also perform hard surface potholing in roadways by coring a hole in the road to expose the utility; this service saves tons of time as well as money. These services start at $125.00 per hour with a 4 hour minimum and a mobilization fee to the site.
-  - title: Rock Excavation
-    icon: remove
-    content: We all are aware as to how soil conditions change and sometimes you run into a small problem known as rock! Specializing in ROCK DRILLING, we are quickly making a name for ourselves in the KC market as the “Go To Guys” to get this type of work done. If you’re not wanting to drill rock, we have the tools to accomplish your project. With use of a rock saw, we can open a trench 36” deep and 6” wide. With a Rock saw, it crushes and pulverizes the rock making it possible to reuse and fill in your trench with the excavated rock. In addition, we have excavators and breaker’s which can handle a variety of rock types and dig you out of any situation. All of this work will be on a bid per foot basis or negotiated price.
-  - title: Trenching
-    icon: cogs
-    content: Another route you can get your product in the ground is by trenching. With this method, Earthworkz can cut you a ditch up to 6” wide and 60” deep. This is done by using a mechanical trencher.
-  - title: Utility Locating
-    icon: map-marker
-    content: Sometimes we run into those projects that once you get past the meter, one call stops locating. This is where we can come in. We do offer locating services for just that type of situation. Whether it is a school, church, shopping center, parks with private lighting, we have the tools and knowhow to get it done. These services are invaluable for everyone involved.
-  - title: Plowing
-    icon: sort-desc
-    content: Plowing is another form of cable or duct installation. When you have long runs of wide open space, plowing is one of the quickest forms of installation. We have the capabilities of plowing materials up to 48” deep for miles at a time.
+- title: Directional Boring
+  icon: wrench
+  content: As a full service directional drilling contractor, we can install product
+    anywhere from 1 inch up to 24 inches and lengths from a small road crossing to
+    750 feet in one bore. We also have all the specialized tooling to pull about every
+    product on the market such as Yellowmine, Certalok, HDPE and Schedule 40 stick
+    pipe. All of our directional drilling prices are competitive with the current
+    market, and with our fleet of drills there is nothing we can’t accomplish.
+- title: Vacuum Excavation
+  icon: gear
+  content: We offer these services at an hourly rate for potholing utilities. Vacuum
+    excavation is by far the safest and least invasive technology on the market for
+    spotting utilities. By using water or air we are able to efficiently and quickly
+    displace soils to excavate utilities. With this technology, more often than not,
+    the public is not regularly inconvenienced during the time these services are
+    performed. We can also perform hard surface potholing in roadways by coring a
+    hole in the road to expose the utility; this service saves tons of time as well
+    as money. These services start at $125.00 per hour with a 4 hour minimum and a
+    mobilization fee to the site.
+- title: Rock Excavation
+  icon: remove
+  content: We all are aware as to how soil conditions change and sometimes you run
+    into a small problem known as rock! Specializing in ROCK DRILLING, we are quickly
+    making a name for ourselves in the KC market as the “Go To Guys” to get this type
+    of work done. If you’re not wanting to drill rock, we have the tools to accomplish
+    your project. With use of a rock saw, we can open a trench 36” deep and 6” wide.
+    With a Rock saw, it crushes and pulverizes the rock making it possible to reuse
+    and fill in your trench with the excavated rock. In addition, we have excavators
+    and breaker’s which can handle a variety of rock types and dig you out of any
+    situation. All of this work will be on a bid per foot basis or negotiated price.
+- title: Trenching
+  icon: cogs
+  content: Another route you can get your product in the ground is by trenching. With
+    this method, Earthworkz can cut you a ditch up to 6” wide and 60” deep. This is
+    done by using a mechanical trencher.
+- title: Utility Locating
+  icon: map-marker
+  content: Sometimes we run into those projects that once you get past the meter,
+    one call stops locating. This is where we can come in. We do offer locating services
+    for just that type of situation. Whether it is a school, church, shopping center,
+    parks with private lighting, we have the tools and knowhow to get it done. These
+    services are invaluable for everyone involved.
+- title: Plowing
+  icon: sort-desc
+  content: Plowing is another form of cable or duct installation. When you have long
+    runs of wide open space, plowing is one of the quickest forms of installation.
+    We have the capabilities of plowing materials up to 48” deep for miles at a time.
