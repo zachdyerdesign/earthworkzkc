@@ -23,6 +23,13 @@ recent-jobs:
 services:
   img: img/feature.jpg
   alt:
+slides:
+  - img: img/slide2.jpg
+    title: Directional Boring
+  - img: img/slide1.jpg
+    title: Track Hoe Services
+  - img: img/slide3.jpg
+    title: Trenching
 ---
 
 Earthworkz services in Kansas City includes:

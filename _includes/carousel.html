@@ -2,31 +2,21 @@
 <header id="myCarousel" class="carousel slide">
   <!-- Indicators -->
   <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
+    {% for slide in page.slides %}
+    <li data-target="#myCarousel" data-slide-to="{{forloop.index}}"{% if forloop.first == true %} class="active"{% endif %}></li>
+    {% endfor %}
   </ol>
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
-    <div class="item active">
-        <div class="fill" style="background-image:url('img/slide2.jpg');"></div>
+    {% for slide in page.slides %}
+    <div class="item{% if forloop.first == true %} active{% endif %}">
+        <div class="fill" style="background-image:url('{{slide.img}}');"></div>
         <div class="carousel-caption">
-            <h2>Directional Boring</h2>
+            <h2>{{slide.title}}</h2>
         </div>
     </div>
-      <div class="item">
-          <div class="fill" style="background-image:url('img/slide1.jpg');"></div>
-          <div class="carousel-caption">
-              <h2>Track Hoe Services</h2>
-          </div>
-      </div>
-      <div class="item">
-          <div class="fill" style="background-image:url('img/slide3.jpg');"></div>
-          <div class="carousel-caption">
-              <h2>Trenching</h2>
-          </div>
-      </div>
+    {% endfor %}
   </div>
   <!-- Controls -->
   <a class="left carousel-control" href="#myCarousel" data-slide="prev">
