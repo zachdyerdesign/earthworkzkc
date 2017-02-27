@@ -1,5 +1,5 @@
 ---
-title: Earthworkz
+title: Home
 layout: home
 recent-jobs:
 - img: img/port1.jpg

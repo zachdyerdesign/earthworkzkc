@@ -1,4 +1,5 @@
 ---
+title: Gallery
 layout: gallery
 gallery:
 - slide2.jpg
@@ -9,4 +10,3 @@ gallery:
 - gallery3.jpg
 - gallery4.jpg
 ---
-

@@ -1,9 +1,9 @@
 ---
-permalink: about
+title: About Us
 layout: about
 img:
   src: img/feature.jpg
-  alt: 
+  alt:
 ---
 
 ## About Earthworkz ##
