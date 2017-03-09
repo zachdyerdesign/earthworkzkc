@@ -5,7 +5,7 @@ staff:
   role: Office Manager
   email: tamara@earthworkzkc.com
 - name: Zoya
-  role: Human Resources 
+  role: Human Resources
   email: zoya@earthworkzkc.com
 - name: Dustin
   role: Lead Estimator / Vice President of Operations
