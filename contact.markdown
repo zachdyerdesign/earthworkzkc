@@ -1,12 +1,12 @@
 ---
 title: Contact Us
 staff:
-- name: Zoya Prochazka
-  role: Temp Office Manager / Human Resources
-  email: amanda@earthworkzkc.com
 - name: Tamara
-  role: Office Manager / Human Resources
+  role: Office Manager
   email: tamara@earthworkzkc.com
+- name: Zoya
+  role: Human Resources 
+  email: zoya@earthworkzkc.com
 - name: Dustin
   role: Lead Estimator / Vice President of Operations
   email: dustin@earthworkzkc.com
@@ -21,7 +21,7 @@ map: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.353
 hours: 'Monday - Friday: 9:00 AM to 5:00 PM'
 mobile: "+1 913 927 0954"
 phone: "+1 816 355 0280"
-fax: "+1 816 355 0401"
+fax: "+1 816 625 1259"
 address: 6950 D Highway<br> Bates City, MO 64011
 ---
 
