@@ -40,5 +40,3 @@ Earthworkz services in Kansas City includes:
 - Trenching
 - Private Utility Locating
 - Plowing
-
-As a full service directional drilling contractor, we can install product anywhere from 1 inch up to 24 inches and lengths from a small road crossing to 750 feet in one bore. We also have all the specialized tooling to pull about every product on the market such as Yellowmine, Certalok, HDPE and Schedule 40 stick pipe. All of our directional drilling prices are competitive with the current market, and with our fleet of drills there is nothing we can’t accomplish.
