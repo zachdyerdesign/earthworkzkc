@@ -32,7 +32,7 @@ slides:
   title: Trenching
 ---
 
-Earthworkz services in Kansas City includes:
+Earthworkz services in the Kansas City area includes:
 
 - *Directional Boring*
 - Vacuum Excavation
