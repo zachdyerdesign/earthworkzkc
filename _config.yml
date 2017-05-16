@@ -8,7 +8,7 @@ collections:
   uploads:
     title: Uploads
     output: true
-url: http://earthworkzkc.com/
+url: http://earthworkzkc.com
 markdown: kramdown
 gems:
 - jekyll-sitemap
