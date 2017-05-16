@@ -12,6 +12,7 @@ url: http://earthworkzkc.com/
 markdown: kramdown
 gems:
 - jekyll-sitemap
+- jekyll-seo-tag
 menus:
   main:
   - title: Home
